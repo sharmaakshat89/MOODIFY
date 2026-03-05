@@ -1,0 +1,54 @@
+/* auth.css */
+
+.auth-container {
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form group wrapper */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Input styling */
+.form-input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button disabled state */
+.auth-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Error text */
+.error-text {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
